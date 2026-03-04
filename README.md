@@ -1,6 +1,6 @@
 # m0rs3c0d3
 
-Security engineer and full-stack developer. Code, security, and the occasional experiment that probably shouldn't exist. The owner of this repo has 20 years of experience programming. This is the AI research account.
+Security engineer and full-stack developer. Code, security, and the occasional experiment that probably shouldn't exist. I have 20+ years of experience with code. This is my AI Research portfolio. We have been automating the boring stuff for a long time. The purpose is not only to build tools, but fully understand how they work and why. Simply running them is not enough.
 
 ---
 
