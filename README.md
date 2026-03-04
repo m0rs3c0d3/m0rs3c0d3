@@ -1,6 +1,6 @@
 # m0rs3c0d3
 
-Security engineer and full-stack developer. Code, security, and the occasional experiment that probably shouldn't exist.
+Security engineer and full-stack developer. Code, security, and the occasional experiment that probably shouldn't exist. The owner of this repo has 20 years of experience programming. This is the AI research account.
 
 ---
 
