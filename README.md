@@ -57,7 +57,7 @@ Pattern-based, responsive, and wired for real instruments.
 
 ## Stack
 
-`Python` · `TypeScript` · `JavaScript` · `React` · `Three.js` · `mitmproxy` · `Ollama`  
+`Python` · `TypeScript` · `JavaScript` · `React` · `Three.js` · `mitmproxy` · `Ollama` `Rust`  
 Security · Autonomous Systems · Creative Coding · Audio/MIDI
 
 ---
