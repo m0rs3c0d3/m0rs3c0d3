@@ -55,7 +55,4 @@ ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF alig
 Kernel-level tooling · Detection engineering · AI security · Autonomous systems · Creative coding
 
 ---
-
-## Contact
-
 > *The purpose is not just to build tools — but to fully understand how they work and why. Running them is not enough.*
