@@ -1,65 +1,63 @@
 # m0rs3c0d3
 
-Security engineer and full-stack developer. Code, security, and the occasional experiment that probably shouldn't exist. I have 20+ years of experience with code. This is my AI Research portfolio. We have been automating the boring stuff for a long time. The purpose is not only to build tools, but fully understand how they work and why. Simply running them is not enough.
+Security engineer. Full-stack developer. 20+ years writing code that does what it's supposed to — and finding out what happens when it doesn't.
+
+I build security tooling from first principles. Not wrappers. Not tutorials repackaged as projects. Tools I'd actually deploy against a real threat surface, written at the layer where the interesting problems live: kernel space, model inference pipelines, hardware enumeration, autonomous agent decision boundaries.
 
 ---
 
-## Active Projects
+## Security Tooling
 
-### 🔒 [Milly](https://github.com/m0rs3c0d3/milly)
+### [Glasswally](https://github.com/m0rs3c0d3/glasswally)
+**Real-time LLM distillation attack detection via eBPF kernel uprobes.**  
+Hooks into inference processes at the kernel boundary. Fingerprints query patterns. Alerts before a model theft completes. MITRE ATT&CK mapped.  
+`Rust` · `eBPF` · `Detection Engineering` · `AI Security`
+
+---
+
+### [Milly](https://github.com/m0rs3c0d3/milly)
 **The first local LLM with a built-in security layer.**  
-Air-gapped. Auditable. Yours. No telemetry, no cloud dependency — just a local model with a hardened security architecture baked in from the ground up.  
+HMAC-signed memory. TF-IDF RAG. Air-gapped by design. Zero egress. 136 passing tests covering memory integrity, injection resistance, and audit logging.  
 `Python` · `Ollama` · `AI Security`
 
 ---
 
-### 🤖 [EverythingOS](https://github.com/m0rs3c0d3/everythingos)
-**A security-first, extensible multi-agent framework for building autonomous systems.**  
-Designed for real-world automation, robotics control, and autonomous agents. Modular by design, powerful by default.  
-`TypeScript` · `Automation` · `Robotics` · `Autonomous Agents`
+### [ghostwire](https://github.com/m0rs3c0d3/ghostwire)
+**Passive USB device fingerprinting and anomaly detection daemon.**  
+Detects BadUSB implants, HID injection devices, and hardware anomalies at the enumeration layer — before the OS finishes booting the driver. Silent. Rust. No kernel module required.  
+`Rust` · `Linux` · `Endpoint Security` · `Hardware Fingerprinting`
 
 ---
 
-### 🕵️ [Durpie](https://github.com/m0rs3c0d3/durpie)
-**Modular web security testing toolkit powered by mitmproxy.**  
-Intercept, analyze, and manipulate traffic. Built for the serious pen tester.  
-`Python`
+### [EverythingOS](https://github.com/m0rs3c0d3/everythingos)
+**Security-first multi-agent framework for autonomous systems.**  
+ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF aligned. 81/81 tests passing, zero TypeScript errors. Built under the Robots For Peace framework.  
+`TypeScript` · `Autonomous Agents` · `AI Governance`
 
 ---
 
-### 🛸 [UAP-51](https://github.com/m0rs3c0d3/uap-51)
-**Fly a UAP manually or autonomously.**  
-A React / Three.js flight simulator with autonomous drone modes. Because why not.  
-`JavaScript` · `React` · `Three.js`
+## Other Work
 
----
-
-### 🖥️ [retro-os](https://github.com/m0rs3c0d3/retro-os)
-**A retro operating system in React — with working games.**  
-No ISOs. No installs. Just nostalgia running in your browser.  
-`JavaScript` · `React`
-
----
-
-### 🎛️ [prism-video-synth](https://github.com/m0rs3c0d3/prism-video-synth)
-**A video synthesizer built in React, optimized for mobile.**  
-Generate visuals and export them as images in multiple size formats.  
-`JavaScript` · `React`
-
----
-
-### 🥁 [pulse-drum-machine](https://github.com/m0rs3c0d3/pulse-drum-machine)
-**A MIDI-capable drum machine for desktop and mobile.**  
-Pattern-based, responsive, and wired for real instruments.  
-`JavaScript` · `MIDI`
+| Project | Description |
+|--------|-------------|
+| [Durpie](https://github.com/m0rs3c0d3/durpie) | Modular web security testing toolkit built on mitmproxy |
+| [UAP-51](https://github.com/m0rs3c0d3/uap-51) | Autonomous flight simulator in React / Three.js |
+| [retro-os](https://github.com/m0rs3c0d3/retro-os) | Working retro OS with games, runs in the browser |
+| [prism-video-synth](https://github.com/m0rs3c0d3/prism-video-synth) | Mobile-optimized video synthesizer in React |
+| [pulse-drum-machine](https://github.com/m0rs3c0d3/pulse-drum-machine) | MIDI-capable drum machine for desktop and mobile |
 
 ---
 
 ## Stack
 
-`Python` · `TypeScript` · `JavaScript` · `React` · `Three.js` · `mitmproxy` · `Ollama` `Rust`  
-Security · Autonomous Systems · Creative Coding · Audio/MIDI
+`Rust` · `Python` · `TypeScript` · `JavaScript` · `React` · `Three.js` · `eBPF` · `mitmproxy` · `Ollama`
+
+Kernel-level tooling · Detection engineering · AI security · Autonomous systems · Creative coding
 
 ---
 
-> *Building tools I'd actually want to use.*
+## Contact
+
+Blog: [stillnoisy](https://stillnoisy.dev) · HackerOne: active · DEF CON: see you there
+
+> *The purpose is not just to build tools — but to fully understand how they work and why. Running them is not enough.*
