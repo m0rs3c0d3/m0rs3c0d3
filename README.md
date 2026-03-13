@@ -58,6 +58,4 @@ Kernel-level tooling · Detection engineering · AI security · Autonomous syste
 
 ## Contact
 
-Blog: [stillnoisy](https://stillnoisy.dev) · HackerOne: active · DEF CON: see you there
-
 > *The purpose is not just to build tools — but to fully understand how they work and why. Running them is not enough.*
