@@ -2,7 +2,7 @@
 
 Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people stop looking.
 
-I specialize in security engineering and AI tooling, but the through-line is the same regardless of the domain: understand how things actually work, then build something worth using. The projects here reflect that. Not tutorials repackaged as repos, but tools built to solve real problems at the layer where the interesting ones live.
+This is my research and AI repo. Read between the lines.
 
 ---
 
