@@ -1,4 +1,4 @@
-# [noisyloop](https://noisyloop.github.io/) - lab write ups and more.
+# [noisyloop](https://noisyloop.github.io/) - lab write ups and security research (sometimes with my own coded tools).
 Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people stop looking.
 AI for lab experiments + deeper understanding.
 ---
